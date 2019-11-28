@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ftt"
+    tools:context=".actividades.Juegos">
+
+    <Button
+        android:id="@+id/rulet"
+        android:layout_width="281dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/fnd_dados"
+        android:onClick="ruleta"
+        android:text="@string/ruleta" />
+
+    <Button
+        android:id="@+id/dad"
+        android:layout_width="281dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="55dp"
+        android:layout_below="@id/rulet"
+        android:layout_marginTop="10dp"
+        android:background="@color/fnd_dados"
+        android:onClick="dados"
+        android:text="@string/dado" />
+
+    <Button
+        android:id="@+id/trag"
+        android:layout_width="281dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="55dp"
+        android:layout_below="@id/dad"
+        android:layout_marginTop="10dp"
+        android:background="@color/fnd_dados"
+        android:onClick="traga"
+        android:text="@string/tragamodena" />
+
+    <Button
+        android:id="@+id/regre"
+        android:layout_width="281dp"
+        android:layout_height="107dp"
+        android:layout_below="@id/trag"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/fnd_dados"
+        android:onClick="regre"
+        android:text="@string/regresar" />
+</RelativeLayout>

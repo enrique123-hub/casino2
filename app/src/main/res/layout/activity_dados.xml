@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainActivityRldad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondito">
+
+    <LinearLayout
+        android:id="@+id/mainActivityLldad"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/et_apues"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/campod1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/campod2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_lanzar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainActivityLldad"
+        android:text="Lanzar" />
+
+
+    <EditText
+        android:id="@+id/et_usuario"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:hint="@string/usuario"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="138dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="33dp"
+        android:onClick="buscador"
+        android:text="@string/buscar" />
+
+    <EditText
+        android:id="@+id/et_credito"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_usuario"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="5"
+        android:enabled="false"
+        android:hint="Credito"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/et_apues"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buscar"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Cantidad a apostar"
+        android:inputType="number"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/btn_lanzar"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="15dp"
+        android:onClick="regre"
+        android:text="@string/regresar"
+        android:textSize="20dp" />
+</RelativeLayout>

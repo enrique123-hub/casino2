@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fv"
+    tools:context=".actividades.Clientes">
+
+    <ListView
+        android:id="@+id/lista_personas"
+
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:cacheColorHint="@android:color/background_light"
+        android:outlineAmbientShadowColor="#00A7FFEB"
+        android:outlineSpotShadowColor="#FAFFFFFF" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="30dp"
+        android:text="Usuario"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="30dp"
+        android:text="Edad"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="30dp"
+        android:text="Credito"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/regres"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_below="@id/lista_personas"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="10dp"
+        android:onClick="regresar"
+        android:text="@string/regresar"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+</RelativeLayout>

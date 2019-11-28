@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">casino</string>
+    <string name="registro">Registro</string>
+    <string name="usuario">Ingresa Usuario</string>
+    <string name="edad">Edad</string>
+    <string name="credito">Credito</string>
+    <string name="buscar">Buscar</string>
+    <string name="guardar">Guardar</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="regresar">Regresar</string>
+    <string name="juegos">juegos</string>
+    <string name="ruleta">Ruleta</string>
+    <string name="dado">Dados</string>
+    <string name="tragamodena">Traga monedas</string>
+    <string name="about">acerca de</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="lista">Lista de clientes</string>
+</resources>

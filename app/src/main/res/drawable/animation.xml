@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_cascos"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_gamepad"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_mouse"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_teclado"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_videogame"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_cascos"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_gamepad"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_mouse"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_teclado"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/ic_videogame"/>
+
+</animation-list>

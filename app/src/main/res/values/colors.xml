@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#289855</color>
+    <color name="colorPrimaryDark">#016053</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="fnd_dados">#6037966F</color>
+    <color name="fnd_tool">#FFFBE6</color>
+    <color name="fnd_tool2">#B9E4C9</color>
+
+</resources>
